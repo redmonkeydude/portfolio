@@ -13,6 +13,10 @@
 </head>
 
 <body>
+
+@section('sidebar')
+    This is the master sidebar.
+@show
 <header id="header">Header</header>
 <nav id="primary">Nav 1</nav>
 <div id="content">Some content</div>

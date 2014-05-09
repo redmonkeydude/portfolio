@@ -12,3 +12,9 @@
 */
 
 Route::get('/', 'MainController@index');
+
+Route::get('/about', 'MainController@about');
+
+Route::get('/portfolio', 'MainController@portfolio');
+
+Route::get('/contact', 'MainController@contact');
